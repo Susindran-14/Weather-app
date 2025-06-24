@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="weat.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <form action="" id="form">
+            <input type="text" autocomplete="off" id="valueSearch" placeholder="Search any place">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <section class="result">
+            <figure class="name " id ="city">
+                <figcaption></figcaption>
+                <img src="" alt="country-flag">
+            </figure>
+            <figure class="temperature" id="temp">
+                <img src="">
+                <figcaption>
+                    <span> °C</span>
+                </figcaption>
+            </figure>
+            <figure class="feelslike" id="feelsLike">
+            <span> </span></figure>
+    
+            <p class="description" id="desc"></figure>
+                
+            </p>
+            <ul>
+                <li>
+                <i class="fa-solid fa-cloud"></i><span>Clouds</span>
+                <span id="cloud"> </span></li>
+                <li>
+                <i class="fa-solid fa-droplet"></i><span>Humidity</span>
+                <span id="humidity"> </span></li>
+                <li>
+                 <i class="fa-solid fa-wind"></i><span>WindSpeed</span>
+                <span id="windspeed"> </span></li>
+                <li>
+                 <i class="fa-solid fa-gauge"></i><span>Pressure</span>
+                <span id="pressure"> </span></li>
+                 <li> <i class="fa-solid fa-hurricane"></i>
+                 <soan>Wind-Gust </soan>
+                <span id="gust">  </span></li>
+                 <li><i class="fa-solid fa-temperature-high"></i>
+                    <span>Highest</span>
+                <span id="tempHigh"> </span></li>
+        
+            </ul>
+        </section>
+    </main>
+    <script src="weat.js"></script>
+</body>
+</html>
